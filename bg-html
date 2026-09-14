@@ -1,0 +1,66 @@
+<section class="w-full min-h-screen grid place-items-center">
+  <div
+    class="w-full md:max-w-6xl md:h-[500px] grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-8 p-4"
+  >
+    <!-- chicken -->
+    <div
+      class="bg-pink-300 md:col-span-2 md:row-span-2 relative grid place-items-center h-[400px]"
+    >
+      <img
+        src="https://images.pexels.com/photos/13724267/pexels-photo-13724267.jpeg"
+        alt="pizza"
+        class="w-full h-full overflow-hidden object-cover"
+      />
+      <div class="absolute top-6 left-6 text-white leading-10">
+        <h3 class="text-4xl font-extrabold">GRILLED CHICKEN</h3>
+        <h4 class="text-2xl font-semibold">SUMMER PIZZA</h4>
+        <p class="bg-red-600 inline py-2 px-4 rounded-lg">HOT & SPICY</p>
+      </div>
+    </div>
+
+    <!-- Fries -->
+    <div class="bg-pink-300 relative grid place-items-center h-[250px]">
+      <img
+        src="https://images.pexels.com/photos/4109275/pexels-photo-4109275.jpeg"
+        alt="fries"
+        class="w-full h-full overflow-hidden object-cover"
+      />
+      <div class="absolute text-center text-gray-400">
+        <h3 class="text-4xl font-bold">FREE</h3>
+        <h4 class="text-2xl">FRIES</h4>
+        <p class="font-medium">FOR ONLINE ORDERS IN WENDSDAYS</p>
+      </div>
+    </div>
+
+    <!-- Coffee -->
+    <div
+      class="bg-pink-300 relative grid place-items-center text-white h-[250px]"
+    >
+      <img
+        src="https://images.pexels.com/photos/32845307/pexels-photo-32845307.jpeg"
+        alt="coffee"
+        class="w-full h-full overflow-hidden object-cover"
+      />
+      <div class="absolute items-center text-center">
+        <h3 class="text-5xl font-bold">ICED COFFEE</h3>
+        <h4 class="text-2xl">SUMMERS</h4>
+        <p class="text-lg">ONLY IN LOCAL</p>
+      </div>
+    </div>
+
+    <!-- Order -->
+    <div
+      class="bg-pink-300 md:col-span-2 relative grid place-items-center h-[250px]"
+    >
+      <img
+        src="https://images.pexels.com/photos/7786562/pexels-photo-7786562.jpeg"
+        alt="burger"
+        class="w-full h-full overflow-hidden object-cover opacity-90"
+      />
+      <div class="absolute flex items-start gap-3">
+        <h3 class="text-lg text-yellow-400">ORDER</h3>
+        <h4 class="text-4xl text-white font-bold">ONLINE</h4>
+      </div>
+    </div>
+  </div>
+</section>

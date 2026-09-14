@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="w-full py-4 md:py-8">
+      <div
+        class="w-full max-w-6xl mx-auto px-3 md:px-4 grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-3 md:gap-4 md:h-[500px]"
+      >
+        <!--CHICKEN -->
+        <div
+          class="relative h-[300px] md:h-auto md:col-span-2 md:row-span-2 bg-cover bg-center overflow-hidden"
+          style="
+            background-image: url(https://images.pexels.com/photos/13724267/pexels-photo-13724267.jpeg);
+          "
+        >
+          <div class="absolute top-4 left-4 md:top-6 md:left-6 text-white">
+            <h3 class="text-xl md:text-4xl font-extrabold">GRILLED CHICKEN</h3>
+
+            <h4 class="text-base md:text-2xl font-semibold">SUMMER PIZZA</h4>
+
+            <p
+              class="inline-block bg-red-600 px-3 py-1 mt-2 rounded-lg text-sm md:text-base"
+            >
+              HOT & SPICY
+            </p>
+          </div>
+        </div>
+
+        <!--FRIES-->
+        <div
+          class="relative h-[180px] md:h-auto bg-cover bg-center overflow-hidden"
+          style="
+            background-image: url(https://images.pexels.com/photos/4109275/pexels-photo-4109275.jpeg);
+          "
+        >
+          <div
+            class="absolute inset-0 flex flex-col items-center justify-center text-center text-black px-3"
+          >
+            <h3 class="text-3xl font-bold">FREE</h3>
+
+            <h4 class="text-xl">FRIES</h4>
+
+            <p class="text-xs md:text-base">FOR ONLINE ORDERS IN WEDNESDAYS</p>
+          </div>
+        </div>
+
+        <!--COFFEE-->
+        <div
+          class="relative h-[180px] md:h-auto bg-cover bg-center overflow-hidden"
+          style="
+            background-image: url(https://images.pexels.com/photos/32845307/pexels-photo-32845307.jpeg);
+          "
+        >
+          <div
+            class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-2"
+          >
+            <h3 class="text-3xl md:text-5xl font-bold">ICED COFFEE</h3>
+
+            <h4 class="text-xl md:text-2xl">SUMMERS</h4>
+
+            <p class="text-sm md:text-base">ONLY IN LOCAL</p>
+          </div>
+        </div>
+
+        <!--BURGER-->
+        <div
+          class="relative h-[180px] md:h-auto md:col-span-2 bg-cover bg-center overflow-hidden"
+          style="
+            background-image: url(https://images.pexels.com/photos/7786562/pexels-photo-7786562.jpeg);
+          "
+        >
+          <div
+            class="absolute top-5 left-1/2 -translate-x-1/2 flex items-start gap-2 whitespace-nowrap"
+          >
+            <span class="text-sm md:text-lg text-yellow-400"> ORDER </span>
+
+            <span
+              class="text-3xl md:text-4xl text-white font-bold leading-none"
+            >
+              ONLINE
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full py-10 bg-white">
+      <div class="w-full max-w-6xl mx-auto">
+        <div class="text-center border-b-2 border-gray-200 mx-4 mb-8">
+          <h2 class="inline-block text-3xl border-b-3 border-red-600 pb-3">
+            Burgers
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+          <!--CARD 1-->
+          <div class="text-center hover:outline-4 hover:outline-gray-200">
+            <img
+              src="https://images.pexels.com/photos/6488939/pexels-photo-6488939.jpeg"
+              alt="burger1"
+              class="w-full object-cover"
+            />
+
+            <div class="p-6">
+              <h3 class="text-2xl mb-4">Bacon burger</h3>
+
+              <p class="italic text-gray-600">
+                A mighty meaty double helping of all the reasons you love our
+                burger.
+              </p>
+
+              <button
+                class="bg-red-600 px-6 py-2 rounded-3xl mt-2 text-white font-bold"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+
+          <!--CARD 2-->
+          <div class="text-center hover:outline-4 hover:outline-gray-200">
+            <img
+              src="https://images.pexels.com/photos/27220713/pexels-photo-27220713.jpeg"
+              alt="Cheese burger"
+              class="w-full object-cover"
+            />
+
+            <div class="p-6">
+              <h3 class="text-2xl mb-4">Cheese Burger</h3>
+
+              <p class="italic text-gray-600 text-sm md:text-base">
+                A mighty meaty double helping of all the reasons you love our
+                burger.
+              </p>
+
+              <button
+                class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-3xl mt-4 text-white font-bold"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+
+          <!--CARD 3-->
+          <div class="text-center hover:outline-4 hover:outline-gray-200">
+            <img
+              src="https://images.pexels.com/photos/12585677/pexels-photo-12585677.jpeg"
+              alt="Chicken burger"
+              class="w-full object-cover"
+            />
+
+            <div class="p-6">
+              <h3 class="text-2xl mb-4">Chicken Burger</h3>
+
+              <p class="italic text-gray-600 text-sm md:text-base">
+                A mighty meaty double helping of all the reasons you love our
+                burger.
+              </p>
+
+              <button
+                class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-3xl mt-4 text-white font-bold"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full min-h-[350px] md:h-[450px] relative overflow-hidden">
+      <!-- Background -->
+      <img
+        src="img/pizza.png"
+        alt="Pizza hero"
+        class="absolute w-full h-full object-cover object-center"
+      />
+
+      <!--CONTENT-->
+      <div
+        class="relative min-h-[350px] md:h-[450px] flex flex-col items-center justify-center text-center text-white px-4 py-10"
+      >
+        <h3 class="text-sm md:text-xl">FREE DELIVERY WITH</h3>
+
+        <h2 class="text-3xl md:text-5xl font-bold mt-2">PIZZA OF THE DAY</h2>
+
+        <!-- Price/List -->
+        <div class="flex flex-row items-center justify-center gap-8 mt-8">
+          <!-- Price -->
+          <div class="text-center">
+            <p class="text-7xl md:text-7xl font-bold">
+              <sup class="text-3xl">£</sup>9<sup class="text-3xl">99</sup>
+            </p>
+
+            <sup
+              class="text-xs md:text-sm font-bold text-right block text-yellow-200"
+            >
+              EACH
+            </sup>
+          </div>
+
+          <!--list -->
+          <ul class="text-left text-sm md:text-xl space-y-1 text-yellow-200">
+            <li>- CHICKEN HAWAII</li>
+
+            <li>- SUMMER PIZZA</li>
+
+            <li>- VEGGIE LOVER</li>
+          </ul>
+        </div>
+
+        <!-- Button -->
+        <button
+          class="mt-8 bg-red-500 hover:bg-red-700 px-12 md:px-16 py-3 md:py-4 rounded-lg font-bold text-base md:text-lg"
+        >
+          Order Now
+        </button>
+      </div>
+    </section>
+
+    <section class="w-full py-10 bg-white">
+      <div class="w-full max-w-6xl mx-auto">
+        <div class="text-center border-b-2 border-gray-200 mx-4 mb-8">
+          <h2 class="inline-block text-3xl border-b-3 border-red-600 pb-3">
+            Goes Great With
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
+          <!--CARD 1-->
+          <div class="text-center hover:outline-4 hover:outline-gray-200">
+            <img
+              src="img/img1.png"
+              alt="burger1"
+              class="w-full object-cover py-4 aspect-square"
+            />
+
+            <div class="p-6">
+              <h3 class="text-2xl mb-4">Pepperoni Pizza</h3>
+
+              <button
+                class="bg-red-600 px-6 py-2 rounded-3xl mt-2 text-white font-bold"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+
+          <!--CARD 2-->
+          <div class="text-center hover:outline-4 hover:outline-gray-200">
+            <img
+              src="img/img5.png"
+              alt="Cheese burger"
+              class="w-full object-cover py-4 aspect-square"
+            />
+
+            <div class="p-6">
+              <h3 class="text-2xl mb-4">Trio Cheese</h3>
+
+              <button
+                class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-3xl mt-4 text-white font-bold"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+
+          <!--CARD 3-->
+          <div class="text-center hover:outline-4 hover:outline-gray-200">
+            <img
+              src="img/img3.png"
+              alt="Chicken burger"
+              class="w-full object-cover py-4 aspect-square"
+            />
+
+            <div class="p-6">
+              <h3 class="text-2xl mb-4">Apricot Chicken</h3>
+
+              <button
+                class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-3xl mt-4 text-white font-bold"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+
+          <!--CARD 4-->
+          <div class="text-center hover:outline-4 hover:outline-gray-200">
+            <img
+              src="img/img4.png"
+              alt="Chicken burger"
+              class="w-full object-cover py-4 aspect-square"
+            />
+
+            <div class="p-6">
+              <h3 class="text-2xl mb-4">Italiano Chicken</h3>
+
+              <button
+                class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-3xl mt-4 text-white font-bold"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="bg-[#EDE9DE] w-full h-screen lg:h-80 relative grid lg:grid-cols-2 items-center justify-center py-8 overflow-hidden lg:overflow-visible"
+    >
+      <div class="w-sm mx-auto text-center px-10">
+        <h3 class="text-2xl">Pepperoni Pizza</h3>
+        <p class="my-4">
+          Extraa-virgin olibe oi, garlic, mozzarella cheese, onions, mushrooms,
+          green olives, black olives, fresh tomatoes.
+        </p>
+        <button class="bg-red-600 px-6 py-2 rounded-3xl text-white font-bold">
+          Add to cart
+        </button>
+      </div>
+      <img
+        src="img/pizza1.png"
+        alt="img2"
+        class="mx-auto lg:h-96 lg:absolute lg:right-8 object-cover "
+      />
+    </section>
+
+    <section class="w-full py-16 bg-white">
+      <div
+        class="w-full max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8"
+      >
+        <!-- Best Quality -->
+        <div class="text-center flex flex-col items-center">
+          <i class="fa-solid fa-box-open text-7xl text-gray-300 mb-8"></i>
+
+          <h3 class="text-2xl md:text-3xl text-gray-800 mb-4">Best Quality</h3>
+
+          <p class="text-lg leading-9 text-gray-500">
+            Praesent pulvinar neque pellentesque mattis pretium.
+          </p>
+        </div>
+
+        <!-- On Time -->
+        <div class="text-center flex flex-col items-center">
+          <i class="fa-solid fa-stopwatch text-7xl text-gray-300 mb-8"></i>
+
+          <h3 class="text-2xl md:text-3xl text-gray-800 mb-4">On Time</h3>
+
+          <p class="text-lg leading-9 text-gray-500">
+            Praesent pulvinar neque pellentesque mattis pretium.
+          </p>
+        </div>
+
+        <!-- MasterChefs -->
+        <div class="text-center flex flex-col items-center">
+          <i class="fa-solid fa-user-tie text-7xl text-gray-300 mb-8"></i>
+
+          <h3 class="text-2xl md:text-3xl text-gray-800 mb-4">MasterChefs</h3>
+
+          <p class="text-lg leading-9 text-gray-500">
+            Praesent pulvinar neque pellentesque mattis pretium.
+          </p>
+        </div>
+
+        <!-- Taste Food -->
+        <div class="text-center flex flex-col items-center">
+          <i class="fa-solid fa-utensils text-7xl text-gray-300 mb-8"></i>
+
+          <h3 class="text-2xl md:text-3xl text-gray-800 mb-4">Taste Food</h3>
+
+          <p class="text-lg leading-9 text-gray-500">
+            Praesent pulvinar neque pellentesque mattis pretium.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="w-full min-h-80 bg-[url('img/footer.png')] bg-cover bg-center bg-no-repeat"
+    >
+      <div
+        class="w-full min-h-80 mx-auto py-12 flex flex-col md:flex-row items-center md:items-end justify-between gap-10 bg-black/30 px-8"
+      >
+        <!-- Left section -->
+        <div class="w-full md:w-1/2 text-white text-center md:text-left">
+          <h4 class="text-xl tracking-[0.3em] font-bold mb-4">
+            FRESH FOOD CAFE
+          </h4>
+
+          <p class="max-w-lg text-sm md:text-base leading-7">
+            Our Cafe is a family-owned restaurant that has been proudly serving
+            around the 1940s, located on the corner of Broadway and West 112th
+            Street in New York.
+          </p>
+        </div>
+
+        <!-- Right section -->
+        <div
+          class="w-full md:w-1/2 grid grid-cols-3 gap-4 text-center text-white"
+        >
+          <!-- Our Menu -->
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="img/restaurant.png"
+              alt="restaurant"
+              class="w-12 h-12 md:w-16 md:h-16 object-contain brightness-0 invert"
+            />
+            <p class="text-sm md:text-lg tracking-wider">OUR MENU</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="img/tray.png"
+              alt="tray"
+              class="w-12 h-12 md:w-16 md:h-16 object-contain brightness-0 invert"
+            />
+            <p class="text-sm md:text-lg tracking-wider">SPECIALS</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="img/coffee-cup.png"
+              alt="coffee"
+              class="w-12 h-12 md:w-16 md:h-16 object-contain brightness-0 invert"
+            />
+            <p class="text-sm md:text-lg tracking-wider">DRINKS</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
+
